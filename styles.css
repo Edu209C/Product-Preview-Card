@@ -59,6 +59,11 @@ body{
 	height: 14.875rem;
 }
 
+.desktop-img{
+	
+	display: none !important; 
+}
+
 .main__products-content{ padding: 1.75rem 1.5625rem;}
 
 .main__product-category{
@@ -142,6 +147,10 @@ body{
 		height: 100%;
 		max-width: 300px;
 	}
+	
+	.mobile-img{display: none !important; }
+	
+	.desktop-img{display: block !important; }
 
 	.main__products-content{	max-width: 300px;}
 	
