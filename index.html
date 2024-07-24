@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Product Preview Card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <main class="main">
+  
+    <picture class="main__picture">
+      <source srcset="./images/image-product-Desktop.jpg" media="(min-width:680px)">
+      <img src="./images/image-product-mobile.jpg" alt="A bottle of perfume">
+    </picture>
+    
+    <div class="main__products-content">
+    
+      <span class="main__product-category">Perfume</span>
+      <h1 class="main__title">Gabrielle Essence Eau De Parfum</h1>
+      <p class="main__description">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+      Perfumer-Creator for the House of CHANEL.</p>
+      
+      <div class="main__prices-container">
+        <p class="main__current-price">
+          <span class="visually-hidden">Current price:</span>
+            $149.99
+        </p>
+        <p class="main__original-price">
+          <span class="visually-hidden">Original price:</span>
+            <s>$169.99</s>
+        </p>
+      </div>
+      
+      
+      <button class="button" data-icon="shopping-cart">
+          <img src="./images/icon-cart.svg" alt="" aria-hidden="true">
+          <span>Add to Cart</span>
+      </button>
+    </div>
+  </main>
+  
+  
+  
+</body>
+</html>
+
+<!--
+Perfume
+
+  Gabrielle Essence Eau De Parfum
+
+  A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+  Perfumer-Creator for the House of CHANEL.
+
+  $149.99
+  $169.99
+
+  Add to Cart
+  -->
